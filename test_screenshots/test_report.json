@@ -1,0 +1,103 @@
+{
+  "test_summary": {
+    "total_tests": 13,
+    "passed": 8,
+    "failed": 5,
+    "success_rate": "61.5%"
+  },
+  "test_details": [
+    {
+      "test_name": "页面加载",
+      "success": true,
+      "message": "页面标题: frontend, 主要元素存在: True",
+      "timestamp": "2025-11-10T20:36:58.917814",
+      "screenshot": "test_screenshots/page_load_20251110_203658.png"
+    },
+    {
+      "test_name": "脚本选择下拉框",
+      "success": true,
+      "message": "找到脚本: ['同步最新客户消息 (Excel处理)', 'SOP流程标注 (SOP分析)', '挖需BadCase清洗 (数据治理)'], 预期脚本匹配: ['SOP流程标注', '同步最新客户消息', '挖需BadCase清洗']",
+      "timestamp": "2025-11-10T20:36:59.059036",
+      "screenshot": "test_screenshots/script_selection_20251110_203658.png"
+    },
+    {
+      "test_name": "文件上传功能UI",
+      "success": false,
+      "message": "上传区域: True, 文件输入: False, 提示文本: JSHandle@<div data-v-817d1b7a=\"\" class=\"upload-text\">…</div>",
+      "timestamp": "2025-11-10T20:37:29.234670",
+      "screenshot": "test_screenshots/file_upload_ui_20251110_203729.png"
+    },
+    {
+      "test_name": "点击上传文件",
+      "success": true,
+      "message": "文件上传: 成功",
+      "timestamp": "2025-11-10T20:37:32.400456",
+      "screenshot": "test_screenshots/file_upload_click_20251110_203732.png"
+    },
+    {
+      "test_name": "脚本选择切换",
+      "success": false,
+      "message": "测试失败: 'bool' object has no attribute 'select_option'",
+      "timestamp": "2025-11-10T20:37:32.547923",
+      "screenshot": "test_screenshots/script_switching_error_20251110_203732.png"
+    },
+    {
+      "test_name": "参数配置动态变化",
+      "success": false,
+      "message": "参数配置变化: 未检测到",
+      "timestamp": "2025-11-10T20:37:32.553026",
+      "screenshot": null
+    },
+    {
+      "test_name": "运行脚本按钮",
+      "success": true,
+      "message": "按钮状态: 禁用, 文本: 🚀 运行脚本",
+      "timestamp": "2025-11-10T20:37:32.692833",
+      "screenshot": "test_screenshots/run_script_button_20251110_203732.png"
+    },
+    {
+      "test_name": "执行结果显示",
+      "success": true,
+      "message": "暂无执行结果（正常情况）",
+      "timestamp": "2025-11-10T20:37:32.828956",
+      "screenshot": "test_screenshots/no_execution_results_20251110_203732.png"
+    },
+    {
+      "test_name": "文件历史功能",
+      "success": true,
+      "message": "文件历史区域: 存在, 文件数量: 4, 刷新按钮: 存在",
+      "timestamp": "2025-11-10T20:37:32.958816",
+      "screenshot": "test_screenshots/file_history_20251110_203732.png"
+    },
+    {
+      "test_name": "文件选择功能",
+      "success": false,
+      "message": "文件选择: 失败",
+      "timestamp": "2025-11-10T20:37:34.210011",
+      "screenshot": "test_screenshots/file_selection_20251110_203734.png"
+    },
+    {
+      "test_name": "最近执行记录",
+      "success": true,
+      "message": "最近执行区域: 存在, 执行记录数量: 0",
+      "timestamp": "2025-11-10T20:37:34.342060",
+      "screenshot": "test_screenshots/recent_executions_20251110_203734.png"
+    },
+    {
+      "test_name": "拖拽上传功能",
+      "success": false,
+      "message": "拖拽测试失败: 'bool' object has no attribute 'bounding_box'",
+      "timestamp": "2025-11-10T20:37:34.498047",
+      "screenshot": "test_screenshots/drag_and_drop_error_20251110_203734.png"
+    },
+    {
+      "test_name": "响应式设计",
+      "success": true,
+      "message": "响应式设计测试完成（桌面、平板、手机）",
+      "timestamp": "2025-11-10T20:37:37.906641",
+      "screenshot": "test_screenshots/responsive_mobile_20251110_203737.png"
+    }
+  ],
+  "screenshots_directory": "test_screenshots",
+  "test_date": "2025-11-10T20:37:37.906678"
+}

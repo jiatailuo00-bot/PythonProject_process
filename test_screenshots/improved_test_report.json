@@ -1,0 +1,17 @@
+{
+  "test_summary": {
+    "total_tests": 7,
+    "passed": 4,
+    "failed": 3,
+    "success_rate": "57.1%"
+  },
+  "failure_analysis": {
+    "failure_reasons": {
+      "其他": 3
+    },
+    "improvement_suggestions": []
+  },
+  "test_details": [
+    {
+      "test_name": "页面加载",
+      "success": 
