@@ -1,0 +1,15 @@
+{
+  "logic_tree_path": "backend/resources/data/chengla_wx.json",
+  "customer_patterns_path": "backend/resources/data/customer_response_patterns.json",
+  "similarity": 0.9,
+  "batch_size": 100,
+  "sentencewise": {
+    "enabled": true,
+    "similarity": 0.8,
+    "seq_ratio": 0.72,
+    "level_thresholds": "__USE_DEFAULT__",
+    "min_level_matches": 1,
+    "trigger_on_partial": true,
+    "parallel_workers": 4
+  }
+}

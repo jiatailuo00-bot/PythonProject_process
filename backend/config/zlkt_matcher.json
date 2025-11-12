@@ -1,0 +1,8 @@
+{
+  "default_mode": "both",
+  "sales_keywords": "销售,CSM",
+  "similarity_threshold": 0.75,
+  "history_fallbacks": ["历史对话", "完整历史对话","最终传参上下文"],
+  "default_excel_path": "backend/resources/data/zlkt_sample_dataset.xlsx",
+  "default_sop_json": "logic_tree_zlkt_origin2.json"
+}

@@ -23,7 +23,7 @@ from typing import Dict, List
 import pandas as pd
 from tqdm import tqdm
 
-from qwen_32b_inner import Qwen32BClient
+from qwen_32b_inner1 import Qwen32BClient
 
 
 QUESTION_CATEGORIES = {
