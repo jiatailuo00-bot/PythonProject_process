@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "python",
+      "args": ["/Users/luojiatai/PycharmProjects/PythonProject_predeal/playwright_mcp.py"],
+      "env": {}
+    }
+  }
+}

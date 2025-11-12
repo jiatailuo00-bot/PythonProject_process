@@ -1,0 +1,11 @@
+{
+  "Setup Browser": true,
+  "Navigate to Frontend": true,
+  "Verify Interface": true,
+  "Upload Excel File": true,
+  "Select SOP Script": true,
+  "Fill Parameters": true,
+  "Execute Script": true,
+  "Monitor Results": true,
+  "Check Backend Logs": true
+}

@@ -1,0 +1,8 @@
+{
+  "params": {
+    "excel_path": "uploads/20251110_221926_修改最后客户消息.xlsx",
+    "context_column": "最终传参上下文",
+    "latest_customer_column": "最新客户消息",
+    "output_path": "uploads/test_result.xlsx"
+  }
+}
